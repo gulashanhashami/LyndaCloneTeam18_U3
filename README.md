@@ -6,7 +6,7 @@
 
 # Authors
 
-- [Gulashan Hashami ](https://github.com/gulashanhashami)
+- [Murali Krishna ](https://github.com/vmk1803)
 - [Amruta Banait ](https://github.com/amrutaBanait)
 - [Sarsande-Sunil](https://github.com/Sarsande-Sunil)
 - [K Aaliya Farhin](https://github.com/aaliyafari)
@@ -14,6 +14,7 @@
 # Prerequisities
 
 - HTML
+- DOM
 - JavaScipt
 - CSS
 
@@ -24,7 +25,7 @@
 
 Clone this Project
 
-`git pull https://github.com/vmk1803/LyndaCloneTeam18_U3.git`
+`git pull https://github.com/gulashanhashami/LyndaCloneTeam18_U3`
 
 - Now the project is ready just go and visit home page
 
