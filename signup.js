@@ -24,7 +24,7 @@ async function register(){
          },
      });
      let data= await response.json();
-     //console.log("data:",data);
+    //  console.log("data:",data);
      let password=document.getElementById("password").value;
      let mobile=document.getElementById("mobile").value;
      let email=document.getElementById("email").value;
