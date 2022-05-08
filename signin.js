@@ -19,13 +19,15 @@ async function login(){
     let data=await response.json();
     //console.log("data:", data);
     let username=document.getElementById("username").value;
+    let password=document.getElementById("password").value;
     //function call for get profile data
     getProfile(username, data.token);
-    if(data.error===false){
+    console.log(data.error)
+    if(data.error===false && username.length!==0 && password.length>=6){
         document.getElementById("username").style.borderColor="grey";
         document.getElementById("password").style.borderColor="grey";
         alert("Login successfully.");
-        window.location.href="home.html";
+        // window.location.href="home.html";
     }
     else{
         document.getElementById("username").style.borderColor="red";
@@ -43,5 +45,5 @@ async function login(){
            },
        });
        let data=await response.json();
-       //console.log("data:", data);
+    //    console.log("data:", data);
   }
